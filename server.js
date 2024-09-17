@@ -14,8 +14,8 @@ app.get('/', function(req,res){
   res.sendFile(__dirname + '/index.html')
 })
 
-var client_id = '7nax595sny';
-var client_secret = 'uPuhUkPTWtQmlGml5qZUgLuAiSgAwB2iYDBC8ygw';
+var client_id = '';
+var client_secret = '';
 
 app.get('/translate', function (req, res) {
    var api_url = 'https://openapi.naver.com/v1/papago/n2mt';
