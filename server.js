@@ -14,8 +14,8 @@ app.get('/', function(req,res){
   res.sendFile(__dirname + '/index.html')
 })
 
-var client_id = '네이버api센터에서 발급받은 api id';
-var client_secret = '네이버api센터에서 발급받은 api secret';
+var client_id = '7nax595sny';
+var client_secret = 'uPuhUkPTWtQmlGml5qZUgLuAiSgAwB2iYDBC8ygw';
 
 app.get('/translate', function (req, res) {
    var api_url = 'https://openapi.naver.com/v1/papago/n2mt';
